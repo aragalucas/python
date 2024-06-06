@@ -1,7 +1,7 @@
 a = int(input("digite um numero: "))
 b = int(input("digite um numero: "))
 operador = input("operador: ")
-while operador != "*" and operador != "-" and operador != "+" and operador != "-":
+while operador != "*" and operador != "-" and operador != "+" and operador != "/":
     print("operador invalido")
     operador = input("operador: ")
 match(operador):
